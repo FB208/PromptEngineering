@@ -27,7 +27,7 @@ HTTP_URL_PATTERN = r'^http[s]{0,1}://.+$'
 domain = "openai.com"
 full_url = "https://openai.com/"
 
-# Create a class to parse the HTML and get the hyperlinks
+#创建一个类来解析超文本标记语言并获取超链接
 class HyperlinkParser(HTMLParser):
     def __init__(self):
         super().__init__()

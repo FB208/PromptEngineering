@@ -166,3 +166,4 @@ cython_debug/
 *-env/
 .env
 archive/
+0-test.ipynb
